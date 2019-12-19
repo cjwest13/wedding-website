@@ -1,0 +1,95 @@
+.vertical {
+  content:"";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  bottom: 0;
+  right: 30%;
+  border-left: 2px dotted #444;
+}
+
+.hor {
+  content:"";
+  position: absolute;
+  z-index: -1;
+  right: 9%;
+  left: 0;
+  bottom: 10%;
+  width: 80%;
+  border-top: 1px dotted #444;
+}
+
+.phrase {
+  position: absolute;
+  font-family: "Georgia", serif;
+  /* top: 10%; */
+  bottom: 0%;
+  right: 10%;
+  color: var(--rosegold);
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.edge {
+  content:"";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  border-left: 25px dashed var(--rosegold);
+}
+
+#sideBar {
+  position: absolute;
+  width: 30%;
+  height: 100%;
+  right: 0%;
+  text-align: center;
+  justify-content: center;
+}
+
+p {
+  position: absolute;
+}
+
+.wedding {
+  font-family: "Georgia", serif;
+  /* top: 10%; */
+  right: 20%;
+  color: var(--rosegold);
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.name {
+  font-family: "Apple Chancery", cursive;
+  top: 8%;
+  right: 10%;
+  color: var(--rosegold);
+  font-size: 3.3rem;
+}
+
+.day {
+  position: relative;
+  font-family: "Georgia", cursive;
+  top: 15%;
+  /* right: 30%; */
+  color: var(--rosegold);
+  font-size: 6rem;
+}
+
+.date {
+  position: relative;
+  font-family: "Georgia", cursive;
+  top: 0%;
+  /* right: 30%; */
+  color: var(--rosegold);
+  font-size: 3rem;
+  letter-spacing: 3px;
+}
+
+.barcode {
+  font-family: 'Libre Barcode 39';
+  font-size: 40px;
+}
